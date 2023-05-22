@@ -7,5 +7,5 @@
 	// divElement.append(sizeElement);
 	// 	document.body.append(divElement);
 	window.onresize=function(){
-		sizeElement.innerText=`Width:${window.innerWidth} and Height:${window.innerHeight}`;
+		sizeElement.innerText=`Width: ${window.innerWidth} and Height: ${window.innerHeight}`;
 	};
